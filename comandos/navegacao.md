@@ -1,6 +1,6 @@
 # Comandos de Navegação no Terminal
 
-Esses são os comandos básicos para "se movimentar" dentro do sistema de arquivos do Linux. São os primeiros que todo mundo aprende, porque você precisa deles para quase tudo.
+Esses são os comandos básicos para "se movimentar" dentro do sistema de arquivos do Linux. São os essenciais que todo mundo aprende, porque você precisa deles para quase tudo.
 
 ## pwd - (Mostrar o diretório atual)
 - **O que faz**: Mostra o caminho completo do diretório onde você está no momento.
