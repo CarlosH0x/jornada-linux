@@ -30,12 +30,15 @@ Esses são os comandos básicos para "se movimentar" dentro do sistema de arquiv
 - `ls` → lista simples (só nomes)
 - `ls -l` → lista detalhada (com permissões, dono, tamanho, data)
 - `ls -a` → mostra arquivos ocultos (que começam com .)
-- `ls -la` ou `ls -alh` → combinação mais usada (detalhada + ocultos + tamanho humano)
+- `ls -la` ou `ls -alh` → combinação mais usada (detalhada + ocultos + tamanho humano, onde mostra os tamanhos em M, K ou G)
 - **Saída de exemplo com `ls -la`**:
   
- `drwxr-xr-x  2 user user 4096 jan  9 15:00 Documentos`
+ ```bash
+
+   drwxr-xr-x  2 user user 4096 jan  9 15:00 Documentos
  
- `-rw-r--r--  1 user user 1234 jan  9 15:10 arquivo.txt`
+  -rw-r--r--  1 user user 1234 jan  9 15:10 arquivo.txt
+ ```
 
 (O primeiro caractere indica tipo: `d` = diretório, `-` = arquivo normal, as vezes também pode aparecer um tipo `l`= link)
 
@@ -43,10 +46,24 @@ Esses são os comandos básicos para "se movimentar" dentro do sistema de arquiv
 - **O que faz**: Exibe pastas e arquivos em formato de árvore (muito visual).
 - **Sintaxe**: `tree [opções] [caminho]`
 - **Exemplos**:
-- `tree` → mostra a partir do diretório atual
-- `tree -L 2` → limita a 2 níveis de profundidade
+- `tree` → mostra tudo a partir do diretório atual (Se o diretorio for muito grande, pode ficar demorado pra carrregar e até confuso de se analisar)
+- `tree -L 2` → limita a 2 níveis de profundidade (pode ser ideal em caso de diretorios muito grandes)
 - `tree -a` → inclui arquivos ocultos
 - `tree -d` → mostra só diretórios
+- **Saída de exemplo com `tree`**
+  ```bash
+    └── Aula01
+    ├── Aula01.cbp
+    ├── Aula01.layout
+    ├── bin
+    │   └── Debug
+    │       └── Aula01
+    ├── main.c
+    └── obj
+        └── Debug
+            └── main.o
+  ```
+  
 - **Nota**: No Ubuntu/Debian pode precisar instalar com `sudo apt install tree`. No Rocky/Fedora já vem ou instala com `sudo dnf install tree`.
 
 Esses comandos são a base para explorar o sistema, seja em distros base Debian/Ubuntu, seja em Red Hat/Fedora/Rocky.
