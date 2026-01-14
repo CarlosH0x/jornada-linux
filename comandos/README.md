@@ -6,11 +6,17 @@ Estou organizando tudo por temas para ficar mais fácil de consultar — tanto p
 
 ### Arquivos:
 
-- 📂 [Comandos de Navegação](comandos/navegacao.md)  
+- 📂 [Comandos de Navegação](navegacao.md)  
   Aqui explico `pwd`, `cd`, `ls` e `tree` — os básicos para se movimentar e explorar o sistema de arquivos.
 
-- 📂 [Manipulação de Arquivos e Diretórios](comandos/arquivos-diretorios.md)  
-  Cobro `mkdir`, `cp`, `mv`, `rm`, `find`, `du` e `df` — tudo sobre criar, copiar, mover, remover e verificar espaço em disco. Incluí avisos de segurança porque alguns desses comandos podem ser perigosos se usados errado.
+- 📂 [Manipulação de Arquivos e Diretórios](arquivos-diretorios.md)  
+  Cobro `mkdir`, `cp`, `mv`, `rm` e `find` — tudo sobre criar, copiar, mover, remover e pesquisar. Incluí avisos de segurança porque alguns desses comandos podem ser perigosos se usados errado.
+
+- 📂 [Gerenciamento de discos](gerenciamento-disco.md)      
+  Documento `du`, `df`, `lsblk`, `fdisk`, `mount`e `umount` —  comandos para monitorar espaço, listar dispositivos, particionar e montar/desmontar. Meu objetivo é deixar claro para quem está começando: o que o comando faz, por quê usar, exemplos práticos e saídas esperadas.
+
+- 📂 [Comandos de Permissões](permissoes.md)      
+  Permissões `chmod`e `chown` —  Esses comandos são essenciais para segurança e para trabalhar com múltiplos usuários, também são muito utulizados no dia dia de uma empresa.
 
 
 Todos os exemplos foram testados no meu ambiente:
