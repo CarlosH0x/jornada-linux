@@ -4,11 +4,11 @@ Essa pasta é dedicada ao que aprendi sobre usuários e grupos no Linux — part
 
 Separei em dois arquivos para ficar mais organizado:
 
-- 📂 [Gerenciamento de Usuários](usuarios.md) (Em construção)
+- 📂 [Gerenciamento de Usuários](usuarios.md)
   
   Criação, modificação, deleção, senhas e diferenças entre distros (adduser vs useradd).
 
-- 📂 [Gerenciamento de Grupos](grupos.md)  (Em construção)
+- 📂 [Gerenciamento de Grupos](grupos.md)
   
   Criação de grupos, adicionar/remover usuários e comandos relacionados.
 
