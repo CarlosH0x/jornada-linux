@@ -7,7 +7,7 @@ Estou organizando tudo por temas para ficar mais fácil de consultar — tanto p
 ### Arquivos:
 
 - 📂 [Comandos de Navegação](navegacao.md)  
-  Aqui explico `pwd`, `cd`, `ls` e `tree` — os básicos para se movimentar e explorar o sistema de arquivos.
+  Aqui explico `pwd`, `cd`, `ls` e `tree` — os básicos para se movimentar e explorar o sistema de arquivos no Linux.
 
 - 📂 [Manipulação de Arquivos e Diretórios](arquivos-diretorios.md)  
   Cobro `mkdir`, `cp`, `mv`, `rm` e `find` — tudo sobre criar, copiar, mover, remover e pesquisar. Incluí avisos de segurança porque alguns desses comandos podem ser perigosos se usados errado.
