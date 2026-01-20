@@ -33,6 +33,7 @@ Aqui os comandos para testar conectividade, latência, DNS etc. Se usa muito par
 ## ss / netstat - Ver sockets e conexões
 - **O que faz**: Lista portas abertas, conexões TCP/UDP.
 - **Exemplo**: `ss -tuln` (TCP, UDP, listen, numérico)
+
   Saída: `tcp LISTEN 0 128 *:22 :`
 
 Esses são comandos básicos para diagnósticos de rede, sendo o comando **ping**, muito utilizado para teste de conexão.
