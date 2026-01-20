@@ -8,10 +8,10 @@ Pode haver algumas diferenaças dos comandos entre base de distros(RHEL/Fedora/R
 
 ### Arquivos disponíveis até o momento:
 
-- 📂 [Gerenciamento de Processos](processos-servicos/processos.md)  
+- 📂 [Gerenciamento de Processos](processos.md)  
   Comandos como `ps`, `top`, `htop`, `kill`, `pkill`, `nice` — tudo para monitorar, priorizar e terminar processos. Incluí exemplos reais, saídas e avisos!
 
-- 📂 [Gerenciamento de Serviços e Logs](processos-servicos/servicos-e-logs.md)  
+- 📂 [Gerenciamento de Serviços e Logs](servicos-e-logs.md)  
   Foco em `systemctl` (start, stop, enable, status) e `journalctl` (ver logs do journal). Essencial para controlar serviços no boot e debug de erros.
 
 Meu objetivo é explicar de forma clara e detalhada, com exemplos que rodei nas VMs que criei para os testes, pensando em quem está começando como eu estava há pouco tempo.
