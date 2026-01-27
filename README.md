@@ -20,5 +20,4 @@ Documentar de forma organizada e progressiva tudo que aprendo: comandos essencia
 | [processos-servicos](./processos-servicos) | Gerenciamento de processos e serviços (systemd) | Em progresso |
 | [redes](./redes)               | Comandos e conceitos de redes (ip, nmcli, etc.)| Em progresso |
 | [scripts](./scripts)           | Scripts Bash práticos     | Em progresso |
-|
 
