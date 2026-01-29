@@ -40,12 +40,9 @@ Meu objetivo é deixar claro para quem está começando (como eu estava há pouc
 - **Exemplos**:
 - `df -h` → tudo em formato humano.
 - Saída esperada(exemplo)
-  ```bash
-    Sistem.Arq      Tam  Usado Disp Uso%   Montado em
-  /dev/nvme0n1p2    100G   45G   55G  45%   /
-  /dev/nvme0n1p1    512M   12M  500M   3%   /boot/efi
-  tmpfs             16G   2.3G   14G  15%   /tmp
-  ```
+
+   ![Comando df -h](https://github.com/CarlosH0x/jornada-linux/blob/eaeaf6a70cc406ad16379ccc86759e0a8d48f238/comandos/imagens/cmd_df.png)
+
   - `df -h /` → só a partição raiz
 - `df -h --output=source,size,used,avail,pcent,target` → colunas personalizadas (para relatórios)
 - **Dica**: Se Uso% > 90%, é hora de limpar ou investigar com `du`.
@@ -56,12 +53,8 @@ Meu objetivo é deixar claro para quem está começando (como eu estava há pouc
 - **Exemplos**:
 - `lsblk` → lista básica
 
-```bash
-  NAME        MAJ:MIN RM   SIZE RO TYPE MOUNTPOINTS
-  nvme0n1     259:0    0 119,2G  0 disk 
-  ├─nvme0n1p1 259:1    0   512M  0 part /boot/efi
-  └─nvme0n1p2 259:2    0 118,7G  0 part /
-```
+  ![Comando lsblk](https://github.com/CarlosH0x/jornada-linux/blob/eaeaf6a70cc406ad16379ccc86759e0a8d48f238/comandos/imagens/cmd_lsblk.png)
+
 - `lsblk -f` → com tipo de filesystem (útil para ver ext4, ntfs, etc.)
 - `lsblk -o NAME,SIZE,TYPE,MOUNTPOINT,FSTYPE` → colunas específicas
 - **Dica**: Sempre confira o nome (/dev/sda, /dev/nvme0n1 etc.) antes de particionar.
