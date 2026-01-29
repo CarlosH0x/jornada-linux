@@ -22,20 +22,7 @@ Meu foco aqui é explicar de forma simples e detalhada, com exemplos reais que r
 
     Saída esperada (exemplo ativo no Rocky Linux/base RHEL):
 
-    ```bash
-       ● sshd.service - OpenSSH server daemon
-     Loaded: loaded (/usr/lib/systemd/system/sshd.service; enabled; preset: enabled)
-     Active: active (running) since Tue 2026-01-20 09:56:47 -03; 4min 30s ago
-     Invocation: 875fsd554dsadfsdf5
-       Docs: man:sshd(8)
-             man:sshd_config(5)
-      Main PID: 871 (sshd)
-      Tasks: 1 (limit: 10834)
-      Memory: 5.6M (peak: 22.7M)
-        CPU: 132ms
-      CGroup: /system.slice/sshd.service
-             └─871 "sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups
-    ```
+   ![systemctl status sshd](https://github.com/CarlosH0x/jornada-linux/blob/88707755c3285d4a8ab4bdfd251d12c069c1bdaf/processos-servicos/imagens/cmd_systemctl.png)
 
     - Nesse exemplo acima, mostra o status atual do SSH, se  está active, loaded, erros recentes.
 
@@ -91,6 +78,10 @@ Meu foco aqui é explicar de forma simples e detalhada, com exemplos reais que r
 
 - **Por serviço**:
 - `journalctl -u sshd` → logs só do sshd
+  - Exemplo:
+
+    ![Texto alternativo](https://github.com/CarlosH0x/jornada-linux/blob/88707755c3285d4a8ab4bdfd251d12c069c1bdaf/processos-servicos/imagens/journalctl.png)
+  
 - `journalctl -u nginx -f` → follow do nginx
 
    Saída de exemplo (erro comum):
