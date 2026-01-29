@@ -33,12 +33,7 @@ Esses são os comandos básicos para "se movimentar" dentro do sistema de arquiv
 - `ls -la` ou `ls -alh` → combinação mais usada (detalhada + ocultos + tamanho humano, onde mostra os tamanhos em M, K ou G)
 - **Saída de exemplo com `ls -la`**:
   
- ```bash
-
-   drwxr-xr-x  2 user user 4096 jan  9 15:00 Documentos
- 
-  -rw-r--r--  1 user user 1234 jan  9 15:10 arquivo.txt
- ```
+![Saída do comando 'ls -la'](https://github.com/CarlosH0x/jornada-linux/blob/82e5555734a3fd5a629d48502bb0865887d3aaad/comandos/imagens/cmd_la.png)
 
 (O primeiro caractere indica tipo: `d` = diretório, `-` = arquivo normal, as vezes também pode aparecer um tipo `l`= link)
 
@@ -51,18 +46,8 @@ Esses são os comandos básicos para "se movimentar" dentro do sistema de arquiv
 - `tree -a` → inclui arquivos ocultos
 - `tree -d` → mostra só diretórios
 - **Saída de exemplo com `tree`**
-  ```bash
-    └── Aula01
-    ├── Aula01.cbp
-    ├── Aula01.layout
-    ├── bin
-    │   └── Debug
-    │       └── Aula01
-    ├── main.c
-    └── obj
-        └── Debug
-            └── main.o
-  ```
+ 
+ ![Saída do comando 'tree'](https://github.com/CarlosH0x/jornada-linux/blob/82e5555734a3fd5a629d48502bb0865887d3aaad/comandos/imagens/cmd_tree.png)
   
 - **Nota**: No Ubuntu/Debian pode precisar instalar com `sudo apt install tree`. No Rocky/Fedora já vem ou instala com `sudo dnf install tree`.
 
