@@ -1,4 +1,4 @@
-# Comandos de navegação, manipulação de arquivos e diretórios 📘
+# Comandos essenciais para navegação, manipulação de arquivos, diretórios e discos 📘
 
 Essa pasta é onde estou documentando os comandos mais essenciais que aprendi até agora no Linux. São aquelas ferramentas que uso o tempo todo no dia a dia, seja para navegar pelo sistema ou gerenciar arquivos e pastas.
 
