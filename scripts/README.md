@@ -14,7 +14,7 @@ Cada script terá sua própria subpasta com um README específico, explicando o 
 
 ## Scripts Atuais
 
-- [Monitor de disco](scripts/monitor-disco): Um script simples em Bash para monitorar o uso de disco na raiz (/) e alertar se ultrapassar 80%. Veja a subpasta para detalhes.
+- [Monitor de disco](monitor-disco): Um script simples em Bash para monitorar o uso de disco na raiz (/) e alertar se ultrapassar 80%. Veja a subpasta para detalhes.
 
 ## Como Usar Esta Pasta
 
